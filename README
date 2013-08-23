@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+A few days ago I launched just over 15000 messages on Bitmessage. This is how.
+
+This repo includes a OpenCL-based GPU miner and a fast CPU-based (C, OpenSSL) miner.
+
+On Windows the bitmessage miner only uses a single core by default, even on a recent Core i7 this gives around a 250000 checks/sec rate.
+
+Using the CPU miner I am able to achieve rates of up to 5 million checks/sec. Around 20 times that of the stock Bitmessage client.
+
+Using the OpenCL based GPU miner on an Nvidia GTX 680 I achieve around 25 million checks/sec.
+
+The OpenCL version has only been tested on Nvidia chips recently, so it may need some modifications to work on AMD hardware.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.17 (MingW32)
+
+iQEcBAEBAgAGBQJSF2QKAAoJEH2RSx5ttpEFW+UIALtKlK7b9DxYZKx9YbSe3Jj7
+GP5amqWDlAGVIlGPGB6NSLNFEfi2ZMyIlTlYovy28GErql03dz9qxkZOxfRGmUNG
+S+BQKoTSAqMdhS/YA1Na5N0DzhmgmUGqTeo9hv0tovCq8IeWUIWiBuG3+XZCEMow
+zkRHhyJpXa3SWT0QWwbcn2A5CxR+3n8RzSbrPitEHFGKhK+9t7IG41tpCaf0QxmW
+ZUxVabl5/0kb1kQLfFnTdOp0CM/Ip97O6/wERZwcfHgcMqbd06mn6WXlWTvDonLb
+POd1lZ0oQQ375GA7RGjUlvvO8lQ59K2z27c9D/fP9z2XGz5THjqaUdu9ZCUvOCc=
+=4xlK
+-----END PGP SIGNATURE-----
